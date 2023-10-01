@@ -1,18 +1,17 @@
-ONE_POUND_TO_KILOGRAMS = 0.453592
+
 
 userInput = float( input("Weight in Pounds (lbs): ") )
 
-userPoundsToKilograms = userInput * ONE_POUND_TO_KILOGRAMS
+userPoundsToKilograms = userInput * 0.453592
 
 print("Weight converted to Kilograms (kg): ", userPoundsToKilograms )
 
 print("==================================================")
-
-ONE_MILES_TO_KILOMETERS = 1.609344
+
 
 userInput = float( input("Length in Miles (mi): ") )
 
-userMilesToKilometers = userInput * ONE_MILES_TO_KILOMETERS
+userMilesToKilometers = userInput * 1.609344
 
 print("Length in Kilometers (km): ",  userMilesToKilometers )
 
